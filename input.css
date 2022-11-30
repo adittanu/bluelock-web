@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply md:text-6xl font-poppins font-bold tracking-widest leading-9 cursor-crosshair sm:text-4xl
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply hover:text-primary-500 hover:border-b hover:border-primary-300 hover:-translate-y-0.5
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="h-auto">
+        <!-- Header -->
+        <div class="flex items-center justify-between px-10 font-sans text-2xl group py-14">
+            <!-- Logo -->
+            <div class="text-[40px] italic text-primary-500">
+                <img src="assets/logo.svg" alt="logo">
+            </div>
+            <!-- Nav -->
+            <nav class="px-2 py-2 space-x-8 md:flex sm:hidden xs:sm\:hidden">
+                <a href="#" class="nav-link text-primary-400">Home</a>
+                <a href="#" class="nav-link">Players</a>
+                <a href="#" class="nav-link">Ranking</a>
+                <a href="#" class="nav-link">Logout</a>
+            </nav>
+        </div>
+        <!-- Main Hero -->
+        <div class="flex flex-col items-center justify-center w-screen mt-8 space-y-8 text-center">
+            <h1><span class="duration-200 hover:text-primary-400">Playing</span> <span class="duration-200 hover:text-primary-400">with</span>  <span class="text-primary-500 hover:-translate-y-0.5">Egoist</span></h1>
+            <p class="text-2xl font-poppins text-slate-500 tracking-[0.145em]">the next future of japanese footballer</p>
+            <button type="button" class="py-2 text-white font-poppins rounded-xl px-10 bg-primary-500 tracking-[0.145em] shadow-sm hover:shadow-lg hover:-translate-y-0.5">Join</button>
+        </div>
+        <!-- Content Container -->
+        <div class="container relative h-auto">
+            <!-- Images List -->
+            <div class="w-screen overflow-auto">
+                <div class="flex items-center justify-around mt-20 w-[190vw] cursor-grab">
+                    <img src="assets/webp/1.webp" alt="">
+                    <img src="assets/webp/2.webp" alt="">
+                    <img src="assets/webp/3.webp" alt="">
+                    <img src="assets/webp/4.webp" alt="">
+                    <img src="assets/webp/5.webp" alt="">
+                    <img src="assets/webp/6.webp" alt="">
+                </div>
+            </div>
+            <!-- Oval Effect -->
+            <div class="absolute top-0 w-screen h-40 bg-white rounded-[80%] opacity-100"></div>
+            <div class="absolute -bottom-20 w-screen h-40 bg-white rounded-[80%] opacity-100"></div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
